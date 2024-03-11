@@ -3,6 +3,8 @@ const inquirer = require('inquirer');
 const express = require('express');
 const mysql = require('mysql2');
 
+const questions = require('./lib/questions')
+
 //Declare local server to listen for
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -20,9 +22,9 @@ const db = mysql.createConnection(
     console.log('====== Connected to employee_db. ======')
 );
 
-db.query('SELECT * FROM employee', function (err, results) {
-    console.log(results);
-});
+const init = questions();
+
+init;
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
