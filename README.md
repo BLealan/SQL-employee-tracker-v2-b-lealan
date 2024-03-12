@@ -19,6 +19,10 @@ Ensure you hae cloned repository from GitHub and are working in the integrated t
 
 Please run `npm install` to ensure that ['inquirer'](https://www.npmjs.com/package/inquirer) and ['mysql'](https://www.mysql.com/) will work when running the programme. Then you will be able to run `node index.js`
 
+## Demonstration
+
+A video on using this application can be found [here](https://drive.google.com/file/d/1k3_BPjbnfU8s2wtLOPPkudSLiAu4k7E7/view?usp=sharing).
+
 ## Sources
 - https://stackoverflow.com/questions/56412516/conditional-prompt-rendering-in-inquirer
 - https://www.npmjs.com/package/inquirer#question
