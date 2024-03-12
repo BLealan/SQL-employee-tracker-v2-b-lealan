@@ -1,3 +1,5 @@
+-- Example data inserted into tables
+
 INSERT INTO department (department_name)
 VALUES  ("IT"),
         ("Accounting"),
