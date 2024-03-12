@@ -11,5 +11,6 @@ VALUES  ("Line Manager", 35000, 3),
         ("Cyber Security Expert", 28000, 1);
 
 INSERT INTO employee (first_name, last_name, role_id)
-VALUES  ("Aaron", "Aaronson", 4),
-        ("Zach", "Zukowski", 1);
+VALUES  ("Alice", "Aaronson", 4),
+        ("Zach", "Zukowski", 1),
+        ("Hank", "Scorpio", 3);
